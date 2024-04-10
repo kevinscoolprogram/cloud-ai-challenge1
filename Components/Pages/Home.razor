@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Computer Vision</h1>
+
+<p> Insert URL or type prompt: </p>
+
+<textarea @bind="urlOrPrompt" rows="1" cols="50" placeholder="Enter URL to analyze or prompt text to generate image"></textarea>
+<button @onclick="AnalyzeImage">Analyze Image</button>
+<button @onclick="GenerateImage">Analyze Image</button>
+
+@code
+{
+  string urlOrPrompt = "";
+
+  void AnalyzeImage() 
+  {
+    
+  }
+  void GenerateImage()
+  {
+    
+  }
+}
